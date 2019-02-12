@@ -16,7 +16,7 @@ ps aux | gohaste-client
 gohaste-client my_custom_file.txt
 ```
 
-By default all the content is uploaded to [https://hastebin.com] you can however specify your custom hastebin server URL using the `-server` flag.
+By default all the content is uploaded to [hastebin.com](https://hastebin.com) you can however specify your custom hastebin server URL using the `-server` flag.
 You can also use the `-raw` flag to get the plaintext URL
 
 ## License
