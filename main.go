@@ -4,7 +4,6 @@ import (
 	"flag"
 	"fmt"
 	"io/ioutil"
-	"log"
 	"os"
 
 	"github.com/atotto/clipboard"
@@ -63,8 +62,6 @@ func main() {
 	if retrieveRaw {
 		finalURL = serverURL + "/raw/" + resp.Key
 	}
-
-	log.Println(retrieveRaw)
 
 	// Try to write result to clipboard if possible
 	if err := clipboard.WriteAll(finalURL); err != nil {
