@@ -1,6 +1,7 @@
 # gohaste-client
 
-Simple command line client for [hastebin servers](https://github.com/seejohnrun/haste-server) made in **Go**
+Simple command line client for [hastebin servers](https://github.com/seejohnrun/haste-server) made in **Go**.
+You can upload text (directly into the application stdin) or upload your files
 
 This should work on all platforms where Go is supported 🤗
 
