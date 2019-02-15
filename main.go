@@ -43,7 +43,7 @@ func main() {
 		panic(err)
 	}
 
-	resp, err := upload(content)
+	resp, err := Upload(content)
 	if err != nil {
 		fmt.Println("Unable to send data to " + serverURL)
 		fmt.Println(err.Error())

@@ -15,7 +15,7 @@ type serverResponse struct {
 }
 
 // Uploads the given data to a hastebin server
-func upload(data []byte) (*serverResponse, error) {
+func Upload(data []byte) (*serverResponse, error) {
 	buff := bytes.NewBuffer(data)
 	resp, err := http.Post(serverURL+"/documents", "application/json", buff)
 	if err != nil {
